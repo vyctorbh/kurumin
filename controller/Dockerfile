@@ -1,5 +1,5 @@
 FROM scratch
 ADD static /static
-ADD controller /controller
+ADD controller /
 EXPOSE 8080
 ENTRYPOINT ["/controller"]
