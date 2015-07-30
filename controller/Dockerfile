@@ -1,6 +1,6 @@
 FROM scratch
 ADD static /static
-COPY . /controller
-ADD controller /controller
+COPY . /app
+WORKDIR /app
 EXPOSE 8080
-ENTRYPOINT ["/controller"]
+ENTRYPOINT ["/app"]
