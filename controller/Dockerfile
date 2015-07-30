@@ -1,4 +1,4 @@
-FROM scratch
+FROM debian:jessie
 ADD static /static
 COPY . /app
 RUN chmod 777 /app
